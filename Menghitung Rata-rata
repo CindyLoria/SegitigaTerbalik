@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+	float i , n , bilangan;
+	float jumlah , ratarata;
+	
+	cout<<"Jumlah Bilangan : ";
+	cin>>n;
+	cout<<endl;
+	
+	for ( i=0; i<n; i++)
+	{
+		cout<<"Bilangan ke-"<<i+1<<" : ";
+		cin>>bilangan;
+		jumlah+=bilangan;
+		
+	}
+	
+	ratarata = jumlah/n;
+	
+	cout<<endl;
+	cout<<"Hasil Penjumlahan = "<<jumlah<<endl;
+	cout<<"Rata-rata 	  = "<<ratarata<<endl;
+		
+}
