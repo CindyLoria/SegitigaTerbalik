@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+
+ //Mendeklarasikan varibel
+ int bilangan;
+ int satuan, puluhan, ratusan, hasil;
+
+ cout<<"Masukkan bilangan yang akan dibalik (3 digit) : ";
+ cin>>bilangan; //Input nilai
+ 
+ //misal:  127 mod 10 sisa 7
+ satuan = bilangan % 10; 
+ 
+ //misal:  127 - 7 mod 100 = 20, dibagi 10 = 2
+ puluhan = ((bilangan-satuan)%100)/10;
+ 
+ //misal: ( 127 - ((2 x 10 = 20) + 7 = 27) = 100) dibagi 100 = 1
+ ratusan = (bilangan-((puluhan*10)+satuan))/100; 
+ 
+ hasil = (satuan*100)+(10*puluhan)+ratusan; //misal: (300)+(20)+(1) = 321  :D
+
+cout<<"Hasil : "<<hasil<<endl;
+
+return 0;
+}
