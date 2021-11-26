@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	 char nama[6] = "BRAND";
+	 
+	 for(char x:nama){
+	 	if(x == 'A'){
+	 		cout <<"*";
+		 }else
+		 cout<<x;
+		 
+		 }
+		
+	 }
