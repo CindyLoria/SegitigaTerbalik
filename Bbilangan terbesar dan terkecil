@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+int a[100]; //deklarasi Array
+
+//parameter untuk memasukan data
+int input (int n)  
+{
+ int i;
+ for (i = 0; i < n; i++)  //perulangan untuk memasukan data ke array
+ {
+  cout << "Masukan bilangan ke " << i + 1 << " : ";
+  cin >> a[i];
+ } 
+}
+
+int hasil (int n)  //parameter proses dan hasil
+{
+ int i, max, min;
+ 
+ max = a[0]; 
+ //  proses perulangan untuk mencari nilai terbesar dan terkecil
+ for (i = 0; i < n; i++)
+ {
+  if (max < a[i])  //nilai terbesar 
+  {
+   max = a[i];
+  }
+  else
+   if (min > a[i])  //nilai terbesar 
+   {
+    min = a[i];
+   } 
+ }//menampilkan hasil
+ cout << "\nNilai terbesar adalah : " << max << endl;  
+ cout << "Nilai terkecil adalah : " << min << endl;  
+}
+
+int main()
+{ 
+ int n;
+ cout << "Masukan Jumlah Data : ";
+ cin >> n;  //memasukan jumlah nilai yang akan dimasukan
+ input (n);  //pemangilan fungsi inputan data
+ hasil (n);  //pemanggilan fungsi proses dan hasil
+}
