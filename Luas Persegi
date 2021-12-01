@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int L, s;
+
+    cout << "Ukuran sisi persegi= ";
+    cin >>s;
+
+    L= s*s;
+
+    cout << "Luas persegi adalah " << L << endl;
+    return 0;
+}
