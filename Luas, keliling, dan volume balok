@@ -1,0 +1,47 @@
+#include <iostream>
+using namespace std;
+ 
+ 
+float luas_permukaan(float p, float l, float t){
+    float L;
+    L = 2 * ( (p*l) + (p*t) + (l*t) );
+    return L;
+}
+ 
+float volume(float p, float l, float t){
+    float V;
+    V = p * l * t;
+    return V;
+}
+ 
+float keliling(float p, float l, float t){
+    float k;
+    k = 4 * (p + l + t);
+    return k;
+}
+ 
+ 
+int main() {
+    float p, l, t;
+    float luasB, volumeB, kelilingB;
+ 
+    cout << "Masukan panjang balok: ";
+    cin >> p;
+ 
+    cout << "Masukan lebar balok: ";
+    cin >> l;
+ 
+    cout << "Masukan tinggi balok: ";
+    cin >> t;
+ 
+    luasB = luas_permukaan(p, l, t);
+    volumeB = volume(p, l, t);
+    kelilingB = keliling(p, l, t);
+ 	
+ 	cout<<endl;
+    cout << "Luas Permukaan Balok: " << luasB <<endl;
+	cout << "Volume Balok: " << volumeB <<endl;
+	cout << "Keliling Balok: " << kelilingB;
+ 
+    return 0;
+}
