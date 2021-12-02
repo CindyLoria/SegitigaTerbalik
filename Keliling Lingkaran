@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main (){
+//deklarasi tipe data dan variabel
+    int r;
+    float phi=3.14,keliling;
+
+    cout<<"Masukan jari-jari lingkaran :";
+    cin>>r; //input ukuran jari-jari lingkaran
+
+    keliling=2*phi*r; //rumus mencari keliling lingkaran
+    cout<<"keliling lingkaran adalah "<<keliling; // hasil dari perhitungan keliling lingkaran
+    return 0;
+}
