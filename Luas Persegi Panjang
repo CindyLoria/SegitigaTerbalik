@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main (){
+    int p,l,Luas;
+
+    cout<<"Masukan panjang persegi panjang : ";
+    cin>>p;
+    cout<<"Masukan lebar persegi panjang : ";
+    cin>>l;
+
+    Luas=p*l;
+    cout<<"Luas persegi panjang adalah "<<Luas;
+    return 0;
+
+}
