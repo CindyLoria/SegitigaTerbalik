@@ -1,0 +1,17 @@
+#include <conio.h>  
+#include <iostream>  
+#include <math.h>  
+using namespace std;  
+  
+int main() {  
+    int nilai = 2;  
+    int n;  
+    int total;  
+  
+    cout << " Masukkan nilai n = ";  
+    cin >> n;  
+    total = pow(2, n);  
+  
+    cout << endl << " Hasil dari " << nilai << " pangkat " << n << " adalah " << total << endl;  
+    getch();  
+}  
