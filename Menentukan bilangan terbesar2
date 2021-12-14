@@ -12,7 +12,7 @@ int main (){
     cout<<"Input Bilangan Ketiga  : ";
     cin>>bil3;
   
-    float max; //penampung nilai terbesar
+    float max; // penampung nilai terbesar
   
     if(bil1 >= bil2 && bil1 >= bil3){
         max = bil1;
