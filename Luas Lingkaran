@@ -3,11 +3,14 @@
 using namespace std;
 int main()
   {
+  //deklarasi tipe data
     float luas, phi=3.14;
     int r;
+    // output dan input jari-jari lingkaran
     cout<<"Masukan Jari-jari : ";
     cin>>r;
     
+    //operasi rumus luas lingkaran
     luas=phi*r*r;
 
     cout<<"Luas Lingkaran = "<<luas<<endl;
