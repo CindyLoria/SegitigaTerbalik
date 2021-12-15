@@ -1,13 +1,14 @@
 #include<iostream>
 using namespace std;
 
-
 int main() {
    
     int A;
     int B;
     
+    cout<<"Masukkan angka pertama: "<<endl;
     cin>>A;
+    cout<<"Masukkan angka kedua: "<<endl;
     cin>>B;
     
     cout<<"Hasil Penjumlahan: "<< A + B <<endl;
