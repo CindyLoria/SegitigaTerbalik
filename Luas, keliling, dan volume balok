@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
  
- 
 float luas_permukaan(float p, float l, float t){
     float L;
     L = 2 * ( (p*l) + (p*t) + (l*t) );
@@ -19,7 +18,6 @@ float keliling(float p, float l, float t){
     k = 4 * (p + l + t);
     return k;
 }
- 
  
 int main() {
     float p, l, t;
@@ -39,7 +37,7 @@ int main() {
     kelilingB = keliling(p, l, t);
  	
  	cout<<endl;
-    cout << "Luas Permukaan Balok: " << luasB <<endl;
+    	cout << "Luas Permukaan Balok: " << luasB <<endl;
 	cout << "Volume Balok: " << volumeB <<endl;
 	cout << "Keliling Balok: " << kelilingB;
  
