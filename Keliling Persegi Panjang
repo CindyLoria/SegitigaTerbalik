@@ -1,11 +1,12 @@
 #include <iostream>
 using namespace std;
 int main(){
+
     int p,l,keliling;
 
-    cout<<"Masukan panjang persegi panjang : ";
+    cout<<"Panjang persegi panjang : ";
     cin>>p;
-    cout<<"Masukan lebar persegi panjang : ";
+    cout<<"Lebar persegi panjang : ";
     cin>>l;
 
     keliling=2*(p+l);
