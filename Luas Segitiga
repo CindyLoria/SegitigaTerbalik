@@ -1,18 +1,21 @@
 #include <iostream>
-
 using namespace std;
 
 int main(){
 
-  int alas,t;
+  int alas,t; // deklarasi tipe data
   float luas;
 
+  //input output
   cout << "Ukuran panjang alas: ";
   cin >> alas;
   cout << "Ukuran tinggi segitiga: ";
   cin >> t;
 
+  //proses
   luas = 0.5*alas*t;
+  
+  //hasil dari proses 
   cout << "Luas segitiga adalah " << luas << endl;
 
   return 0;
