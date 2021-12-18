@@ -40,7 +40,7 @@ int main()
 { 
  int n;
  cout << "Masukan Jumlah Data : ";
- cin >> n;  //memasukan jumlah nilai yang akan dimasukan
+ cin >> n;  //memasukan jumlah nilai yang akan diproses
  input (n);  //pemangilan fungsi inputan data
  hasil (n);  //pemanggilan fungsi proses dan hasil
 }
